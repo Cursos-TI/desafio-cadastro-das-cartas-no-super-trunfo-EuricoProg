@@ -20,10 +20,10 @@ int main(){
     scanf("%c", &carta1.estado);
 
     printf("codigo da carta: ");
-    scanf("%s", carta1.codigo);
+    scanf("%s", &carta1.codigo);
 
     printf("Nome da cidade: ");
-    scanf(" %[^\n]", carta1.nomeCidade);
+    scanf(" %[^\n]", &carta1.nomeCidade);
 
     printf("População: ");
     scanf("%d", &carta1.populacao);
@@ -37,6 +37,6 @@ int main(){
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta1.PontosTuristicos);
 
-    
+
 
 }
