@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(){
+    printf("Super Trunfo!\n");
+}
+
+int main(){
    char estado;
    char código[5];
    char NomeCidade[50];
