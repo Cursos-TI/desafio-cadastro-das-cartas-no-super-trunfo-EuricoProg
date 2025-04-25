@@ -38,16 +38,16 @@ int main(){
     scanf("%d", &carta1.PontosTuristicos);
 
 
-    printf("\nCadastro da Carta 2: \n");
+    printf("\nCadastro da Carta 2:\n");
 
     printf("Estado: ");
-    scanf("%c", &carta2.estado);
+    scanf(" %c", &carta2.estado);
 
     printf("Codigo da Carta: ");
-    scanf("%s", &carta2.codigo);
+    scanf("%s", carta2.codigo);
 
     printf("Nome da cidade: ");
-    scanf("%[^\n]", &carta2.nomeCidade);
+    scanf("%[^\n]", carta2.nomeCidade);
 
     printf("População: ");
     scanf("%d", &carta2.populacao);
